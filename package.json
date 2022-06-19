@@ -1,0 +1,14 @@
+{
+  "name": "simple-vite",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node ./vite"
+  },
+  "repository": "git@github.com:xiexuan-start/simple-vite.git",
+  "author": "xiexuan-star",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "vue": "^3.0.11"
+  }
+}

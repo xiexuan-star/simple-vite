@@ -1,0 +1,13 @@
+{
+  "name": "simple-vite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.0.11",
+    "connect": "^3.7.0",
+    "es-module-lexer": "^0.4.1",
+    "esbuild": "^0.11.20",
+    "magic-string": "^0.25.7"
+  }
+}
