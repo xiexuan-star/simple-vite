@@ -19,7 +19,6 @@ const optimizeDeps = async () => {
     entryPoints: deps.map(dep => {
       const depRoot = path.resolve(__dirname, '../node_modules', dep);
       const pkgPath = path.resolve(depRoot, 'package.json');
-      console.log(fs.existsSync(pkgPath));
       if (!fs.existsSync(pkgPath)) return path.resolve(__dirname, depRoot, 'index.js');
       const pkg = JSON.parse(fs.readFileSync(pkgPath, 'utf-8'));
       return path.resolve(depRoot, pkg.module || pkg.main);
